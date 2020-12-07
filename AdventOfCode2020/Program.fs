@@ -18,9 +18,21 @@ let day2Part1() =
     let validCount = Day2.part1 input
     printfn "Valid password count: %d" validCount
 
+let day3Part1() =
+    let input = Day3.loadInput()
+    let count = Day3.part1 input
+    printfn "Tree count = %d" count
+    
+let day3Part2() =
+    let input = Day3.loadInput()
+    let count = Day3.part2 input
+    printfn "Tree count = %d" count
+
 [<EntryPoint>]
 let main argv =
     day1Part1()
     day1Part2()
     day2Part1()
+    day3Part1()
+    day3Part2()
     0 // return an integer exit code
