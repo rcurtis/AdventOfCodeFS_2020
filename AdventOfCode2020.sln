@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventOfCode2020", "AdventOfCode2020\AdventOfCode2020.fsproj", "{424FBEB5-5956-4A57-B9B7-7E459E51BE4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{424FBEB5-5956-4A57-B9B7-7E459E51BE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424FBEB5-5956-4A57-B9B7-7E459E51BE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424FBEB5-5956-4A57-B9B7-7E459E51BE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424FBEB5-5956-4A57-B9B7-7E459E51BE4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
