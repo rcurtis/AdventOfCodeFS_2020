@@ -28,6 +28,16 @@ let day3Part2() =
     let count = Day3.part2 input
     printfn "Tree count = %d" count
 
+let day4Part1() =
+    let input = Day4.loadInput()
+    let count = Day4.part1 input
+    printfn "Day 4 Part 1: Valid passport count = %d" count
+    
+let day4Part2() =
+    let input = Day4.loadInput()
+    let count = Day4.part2 input
+    printfn "Day 4 Part 2: Valid passport count = %d" count
+
 [<EntryPoint>]
 let main argv =
     day1Part1()
@@ -35,4 +45,6 @@ let main argv =
     day2Part1()
     day3Part1()
     day3Part2()
+    day4Part1()
+    day4Part2()
     0 // return an integer exit code
